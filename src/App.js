@@ -1,14 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react';
+import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import Home from './pages/Home';
+import Skills from './components/Skills';
+import Projects from './pages/Projects';
+import Testimonials from './pages/Testimonials';
+import Contact from './pages/Contact';
+import NotFound from './pages/NotFound';
+import Layout from './pages/Layout';
+import './styles.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-      <h1>Hi, I am Md. Shakil Shaikh</h1>
-      </header>
-    </div>
-  );
-}
+
+const App = () => (
+  <Router>
+  <Layout>
+    <Routes>
+      <Route path="/" element={<Home />} />
+      <Route path="/skills" element={<Skills />} />
+      <Route path="/projects" element={<Projects />} />
+      <Route path="/testimonials" element={<Testimonials />} />
+      <Route path="/contact" element={<Contact />} />
+      <Route path="*" element={<NotFound />} />
+    </Routes>
+  </Layout>
+  </Router>
+);
 
 export default App;
