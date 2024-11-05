@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/shakilshaikh.dev/static/css/main.f6d7650d.css",
-    "main.js": "/shakilshaikh.dev/static/js/main.82f1703f.js",
+    "main.css": "/shakilshaikh.dev/static/css/main.9601bca9.css",
+    "main.js": "/shakilshaikh.dev/static/js/main.c3d74699.js",
     "index.html": "/shakilshaikh.dev/index.html",
-    "main.f6d7650d.css.map": "/shakilshaikh.dev/static/css/main.f6d7650d.css.map",
-    "main.82f1703f.js.map": "/shakilshaikh.dev/static/js/main.82f1703f.js.map"
+    "main.9601bca9.css.map": "/shakilshaikh.dev/static/css/main.9601bca9.css.map",
+    "main.c3d74699.js.map": "/shakilshaikh.dev/static/js/main.c3d74699.js.map"
   },
   "entrypoints": [
-    "static/css/main.f6d7650d.css",
-    "static/js/main.82f1703f.js"
+    "static/css/main.9601bca9.css",
+    "static/js/main.c3d74699.js"
   ]
 }
