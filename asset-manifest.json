@@ -1,13 +1,13 @@
 {
   "files": {
     "main.css": "/shakilshaikh.dev/static/css/main.0ba2911c.css",
-    "main.js": "/shakilshaikh.dev/static/js/main.33e3c4b3.js",
+    "main.js": "/shakilshaikh.dev/static/js/main.c30fb638.js",
     "index.html": "/shakilshaikh.dev/index.html",
     "main.0ba2911c.css.map": "/shakilshaikh.dev/static/css/main.0ba2911c.css.map",
-    "main.33e3c4b3.js.map": "/shakilshaikh.dev/static/js/main.33e3c4b3.js.map"
+    "main.c30fb638.js.map": "/shakilshaikh.dev/static/js/main.c30fb638.js.map"
   },
   "entrypoints": [
     "static/css/main.0ba2911c.css",
-    "static/js/main.33e3c4b3.js"
+    "static/js/main.c30fb638.js"
   ]
 }
